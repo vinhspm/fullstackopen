@@ -7,9 +7,9 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <Part part={this.props.part1} exercises={this.props.exercises1}/>
-        <Part part={this.props.part2} exercises={this.props.exercises2}/>
-        <Part part={this.props.part3} exercises={this.props.exercises3}/>
+        <Part part={this.props.parts[0].name} exercises={this.props.parts[0].exercises}/>
+        <Part part={this.props.parts[1].name} exercises={this.props.parts[1].exercises}/>
+        <Part part={this.props.parts[2].name} exercises={this.props.parts[2].exercises}/>
       </div>
     );
   }

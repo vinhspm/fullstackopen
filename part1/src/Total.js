@@ -7,7 +7,7 @@ class Total extends Component {
   render() {
     return (
       <div>
-        <p>Number of exercises {this.props.exercises1 + this.props.exercises2 + this.props.exercises3}</p> 
+        <p>Number of exercises {this.props.parts[0].exercises + this.props.parts[1].exercises + this.props.parts[2].exercises}</p> 
       </div>
     );
   }
